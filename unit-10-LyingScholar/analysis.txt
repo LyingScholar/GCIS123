@@ -1,0 +1,61 @@
+Nouns:
+Book
+        title   string
+        author  string
+        copies  int
+
+patron
+    ID                  string
+    name                string
+    want_list           string
+    checkout_books      []
+
+card catalog
+    bookbytitle     {} - key: title, value: book
+    bookbyAuthor    {} - key: author,value: [] of books
+
+library
+    Patrons - []
+    Shelves- []
+    CardCatalog - {}
+
+
+verbs:
+checkout
+returned
+sent
+wanted
+stored
+tracked
+lookup/find
+provide car systems
+
+
+
+
+------------------------------------------------------------------------------
+Classes:
+1. Avenger
+2. Avengers
+
+Avenger Class:
+  hero_name (str) - stores the hero name
+  real_name (string) - stores the real-life name
+  powers (list) - stores the hero's powers
+  weapons (list) - stores the her's weapons
+
+Avengers Class:
+- Fields:
+  - team_members (list) - stores the members of the Avengers team
+  - team_leader (Avenger) - stores the leader name
+
+
+
+Functions:
+
+print_bio(avenger)
+
+print_roster(avengers)
+
+find_member
+find_team_leader

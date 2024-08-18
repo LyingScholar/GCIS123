@@ -1,0 +1,78 @@
+
+mukul@Sapphire MINGW64 ~
+$ git clone https://github.com/GCIS-123-2231/unit-02-LyingScholar.git
+Cloning into 'unit-02-LyingScholar'...
+ remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 2 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+mukul@Sapphire MINGW64 ~
+$ df
+Filesystem           1K-blocks      Used Available Use% Mounted on
+C:/Program Files/Git 499072324 125155924 373916400  26% /
+
+mukul@Sapphire MINGW64 ~
+$ cd /c/Users/mukul/SoftDev1/unit-02-LyingScholar
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar
+$ mkdir practicum
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar
+$ cd practicum/
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar/practicum
+$ ls
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar/practicum
+$ vi about_me.txt
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar/practicum
+$ cat about_me.txt
+Mukul Bhardwaj
+
+21 September 2002
+
+Shimla
+
+One Direction
+
+Prince of Thorns
+
+We are not supposed to have dreams
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar/practicum
+$ cp about-me.txt about_me_copy.txt
+cp: cannot stat 'about-me.txt': No such file or directory
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar/practicum
+$ cp about_me.txt about_me_copy.txt
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar/practicum
+$ cat about_me_copy.txt
+Mukul Bhardwaj
+
+21 September 2002
+
+Shimla
+
+One Direction
+
+Prince of Thorns
+
+We are not supposed to have dreams
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar/practicum
+$ ls
+about_me.txt  about_me_copy.txt
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar/practicum
+$ mv about_me.txt ..
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar/practicum
+$ rm about_me_copy.txt
+
+mukul@Sapphire MINGW64 ~/SoftDev1/unit-02-LyingScholar/practicum
+$
+

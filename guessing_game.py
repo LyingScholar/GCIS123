@@ -23,7 +23,7 @@ def get_user_input(secret):
 def main():
     secret = secret_number()
     print(secret)
-    if get_user_input(secret) == "Correct":
+    if get_user_input(secret) == "Correct": 
         return "You win"
     if get_user_input(secret) == "Correct":
         return "You win"
